@@ -1,0 +1,36 @@
+.card-container {
+  width: 200px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: bisque;
+  box-shadow: 0 0 0 1px #808080;
+}
+.card-container img {
+  width: 100%;
+}
+.types {
+  display: flex;
+  justify-content: space-around;
+}
+.barStats {
+  height: 5px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.barStats::before {
+  content: "";
+  height: 5px;
+  background-color: blue;
+  border-radius: 10px;
+  width: 200px;
+  display: block;
+  opacity: 0.2;
+}
+.typeStyle {
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+}
